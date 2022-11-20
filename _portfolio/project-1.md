@@ -11,11 +11,11 @@ All of the factors mentioned above made us realize the importance of reducing th
 
 It was found that PeMSD7and PeMSD8 as the two main datasets used in the development of the traffic forecast models. But both of them were based on the foreign setting which is unsuitable for utilization in the Indian Province thus, a need to create our own dataset was realized. Thus, the area to be considered was finalized and explored. Finally, 20 distinct points were selected.
 
-<img height="600" width="400" src='/images/node_map.PNG'><br/>
+<img height="600" width="400" src='/images/node_map.png'><br/>
 
 Thus, a Nodejs script which uses the TomTom API was deployed on Heroku to create our own API server. This server collects traffic data at the selected nodes at a regular interval of 15 mins.
 
-<img src='/images/heroku.PNG'><br/>
+<img src='/images/heroku.png'><br/>
 
 The exploratory data analysis on the collected data showcased the heavy correlation between the free flow velocity at every node at a given instance.
 

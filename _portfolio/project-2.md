@@ -1,6 +1,6 @@
 ---
 title: "Classification of ISL using Pose and Object Detection based Techniques"
-excerpt: "We present two approaches for the classification of Indian Sign Language: (a) Pose-based approach utilizes an LSTM model which takes the skeletal pose landmarks from Mediapipe for a sequence of frames as an input to infer and predict the action. (b) Object detection-based approach utilizes a model built on Scaled-YOLOv4 architecture which performs a frame-by-frame inference. LSTM model achieved an accuracy of around 98% for 8 classes. However, it was found from experimentation that this approach is not very scalable due to the drastic fall in model performance with increase in number of classes. The object detection route allows us to train far more number of classes (about thrice) on the Scaled-YOLOv4 Architecture with only little impact to performance with rise in number of classes. This provides a better and more scalable solution to Sign-to-Text translation with the ability to infer on images, videos and live-cam.  The final accuracy of our YOLO model was 95.9% for 25 classes. The notebooks utilized for the project are available on github (<a href='https://github.com/paras2001-hub/indian-sign-language-classification'>link</a>).<br/><img src='/images/yolo_imp.PNG'>"
+excerpt: "We present two approaches for the classification of Indian Sign Language: (a) Pose-based approach utilizes an LSTM model which takes the skeletal pose landmarks from Mediapipe for a sequence of frames as an input to infer and predict the action. (b) Object detection-based approach utilizes a model built on Scaled-YOLOv4 architecture which performs a frame-by-frame inference. LSTM model achieved an accuracy of around 98% for 8 classes. However, it was found from experimentation that this approach is not very scalable due to the drastic fall in model performance with increase in number of classes. The object detection route allows us to train far more number of classes (about thrice) on the Scaled-YOLOv4 Architecture with only little impact to performance with rise in number of classes. This provides a better and more scalable solution to Sign-to-Text translation with the ability to infer on images, videos and live-cam.  The final accuracy of our YOLO model was 95.9% for 25 classes. The notebooks utilized for the project are available on github (<a href='https://github.com/paras2001-hub/indian-sign-language-classification'>link</a>).<br/><img src='/images/yolo_imp.png'>"
 collection: portfolio
 ---
 
@@ -16,11 +16,11 @@ Thus, we present two approaches for the classification of Indian Sign Language:
 
 In this initial approach, the Sign-to-Text translation was performed by acquiring pose skeleton of the person from the input video which is achieved with the help of Holistic model from the Mediapipe Python library. This serves as a preprocessing step for the input is passed to the actual LSTM Model which then, provides the meaning of the Sign in the form of the classification result. 
 
-<img src='/images/lstm.PNG'><br/>
+<img src='/images/lstm.png'><br/>
 
 The input takes the form of a video or images. The input video frames would be given to the LSTM model once the landmarks have been extracted using the MP Holistic model. Finally, the LSTM model infers the input to provide the appropriate text for the given action.
 
-<img src='/images/mp_lstm.PNG'><br/>
+<img src='/images/mp_lstm.png'><br/>
 
 Classification Report for LSTM
 
@@ -53,26 +53,26 @@ Confusion Matrix for LSTM
 
 Accuracy Graph for LSTM
 
-<img src='/images/lstm_accuracy.PNG'><br/>
+<img src='/images/lstm_accuracy.png'><br/>
 
 ### Object detection-based Classification using Scaled YOLO-v4
 
 The initial approach, i.e the skeleton approach has a set of drawbacks when it comes to real-time deployment of models in a dynamic environment. The performance of the LSTM model developed for pose-based approach dwindled exponentially with increase in classes. Thus, with an imminent need for a newer approach, the idea of treating the hand-signs as an object was brought up. Finally, YOLO was utilized for the detection of these hand-sign objects.
 
-<img src='/images/yolo.PNG'><br/>
+<img src='/images/yolo.png'><br/>
 
 The input takes the form of a video or images. The input video frames would be given to the YOLO model once the image frame has been grayscale and then, output shall be generated for each in the form of bounding box coordinates and a class result.
 
-<img src='/images/yolo_imp.PNG'><br/>
+<img src='/images/yolo_imp.png'><br/>
 
 Mean Average Precision (0.5:0.95) Graph for Scaled-YOLOv4
 
-<img src='/images/mAP_0.5_0.95.PNG'><br/>
+<img src='/images/mAP_0.5_0.95.png'><br/>
 
 Precision for Scaled-YOLOv4
 
-<img src='/images/precision.PNG'><br/>
+<img src='/images/precision.png'><br/>
 
 Recall for Scaled-YOLOv4
 
-<img src='/images/recall.PNG'><br/>
+<img src='/images/recall.png'><br/>

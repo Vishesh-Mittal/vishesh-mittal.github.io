@@ -1,6 +1,6 @@
 ---
 title: "Customer Review Sentiment Analysis"
-excerpt: "The project aims to analyse the sentiment of amazon reviews with the help of Machine Learning & Deep Learning. Sentiment analysis (or opinion mining) uses natural language processing and machine learning to interpret and classify emotions in subjective data. This helps to further understand the overall sentiment of customers as well as predict the sentiments of incoming reviews. It was observed that DT has the lowest scores (0.78) while the rest of the models had a similar accuracy (0.86 - 0.87). Also, it can be seen that the neural network models appear to have similar accuracy (0.85) as that of the simpler ML counterparts however, it must be noted that this accuracy was achieved with half the data than that feeded to ML models. As evident, the neural network models outperform the ML models. Additionally, the models were deployed to Heroku and an application was developed using Flutter to predict sentiment of any input sentence using API calls. The dataset utilized is available on github (<a href='https://nijianmo.github.io/amazon/index.html'>link</a>). Our codebase for model creation (<a href='https://github.com/Vishesh-Mittal/ARSA'>link</a>), deployment (<a href='https://github.com/paras2001-hub/ARSA'>link</a>) and flutter application (<a href='https://github.com/paras2001-hub/ARSA_Flutter_App'>link</a>) has been made public.<br/><img height='400' width='200' src='/images/arsa_home.PNG'><img height='400' width='200' src='/images/arsa_res.PNG'><br/>"
+excerpt: "The project aims to analyse the sentiment of amazon reviews with the help of Machine Learning & Deep Learning. Sentiment analysis (or opinion mining) uses natural language processing and machine learning to interpret and classify emotions in subjective data. This helps to further understand the overall sentiment of customers as well as predict the sentiments of incoming reviews. It was observed that DT has the lowest scores (0.78) while the rest of the models had a similar accuracy (0.86 - 0.87). Also, it can be seen that the neural network models appear to have similar accuracy (0.85) as that of the simpler ML counterparts however, it must be noted that this accuracy was achieved with half the data than that feeded to ML models. As evident, the neural network models outperform the ML models. Additionally, the models were deployed to Heroku and an application was developed using Flutter to predict sentiment of any input sentence using API calls. The dataset utilized is available on github (<a href='https://nijianmo.github.io/amazon/index.html'>link</a>). Our codebase for model creation (<a href='https://github.com/Vishesh-Mittal/ARSA'>link</a>), deployment (<a href='https://github.com/paras2001-hub/ARSA'>link</a>) and flutter application (<a href='https://github.com/paras2001-hub/ARSA_Flutter_App'>link</a>) has been made public.<br/><img height='400' width='200' src='/images/arsa_home.png'><img height='400' width='200' src='/images/arsa_res.png'><br/>"
 collection: portfolio
 ---
 
@@ -15,7 +15,7 @@ The reviews were collected from the dataset provided by Jianmo Ni available <a h
 - Count Vectorization approach: 
     - In this approach, the words (features) are converted into a vector (matrix) storing the number of occurrences of each feature i.e. its frequency.
 
-<img src='/images/arsa_data_processing.PNG'><br/>
+<img src='/images/arsa_data_processing.png'><br/>
 
 The following classifiers were utilized:
 - From NLTK (True/False based):
@@ -32,13 +32,13 @@ The models were developed using Google Colab (Link <a href="https://github.com/V
 
 In order to perform the live testing of the models as well as deployment, an application was developed named ‘ARSA’ (Amazon Review Sentiment Analysis) (Code <a href="https://github.com/paras2001-hub/ARSA_Flutter_App">HERE</a>). The flask  program and ML models were uploaded to Heroku using Github <a href="https://github.com/paras2001-hub/ARSA">REPO</a> and the server was deployed. Within the server, the flask API waits for a POST request which will be sent by flutter when the user presses the ‘PREDICT’ button. This sends the data in json format to the API and also invokes the '/predict' route where all the analysis takes place.
 
-<img src='/images/arsa_depl.PNG'><br/>
+<img src='/images/arsa_depl.png'><br/>
 
 Application Screenshots:
 
-<img height='400' width='200' src='/images/arsa_loading.PNG'>
-<img height='400' width='200' src='/images/arsa_home.PNG'>
-<img height='400' width='200' src='/images/arsa_res.PNG'><br/>
+<img height='400' width='200' src='/images/arsa_loading.png'>
+<img height='400' width='200' src='/images/arsa_home.png'>
+<img height='400' width='200' src='/images/arsa_res.png'><br/>
 
 Classification Report of all models:
 
