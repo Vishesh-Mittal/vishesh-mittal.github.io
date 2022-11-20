@@ -1,0 +1,18 @@
+---
+title: "Deep-Learning Spatiotemporal Prediction Framework for Particulate Matter under Dynamic Monitoring"
+collection: publications
+permalink: /publication/17-03-2022-paper-number-1
+excerpt: 'A spatiotemporal prediction of hourly particulate matter with different deep-learning modeling techniques for Delhi, India was performed. The secondary data of particulate matter concentrations and the meteorological parameters for the four static monitors in the area are collected from Central Pollution Control Board (CPCB) for dates between January 2019 and April 2021. Three models with convolutional neural network (CNN), long short-term memory (LSTM), and CNN-LSTM are developed for a total of 15 hexagonal cells.  The predictions are accurate for the CNN-LSTM model compared with the values obtained from the static monitor. Also, compared with the existing and individual models, the proposed hybrid CNN-LSTM model performed better for most of the cells.'
+date: 17-03-2022
+venue: 'Transportation Research Record: Journal of the Transportation Research Board'
+paperurl: 'https://journals.sagepub.com/doi/10.1177/03611981221082589'
+citation: '<b>Mittal, V.</b>, Sasetty, S., Choudhary, R., &amp; Agarwal, A. (2022). Deep-Learning Spatiotemporal Prediction Framework for Particulate Matter under Dynamic Monitoring. Transportation Research Record, 2676(8), 56-73.'
+---
+
+Download paper <a href='https://journals.sagepub.com/doi/10.1177/03611981221082589'>here</a>
+
+With increasing air pollution and its harmful effect on the residents of developing countries, the prediction and analysis of pollutants have become an important research aspect. This study focuses on the spatiotemporal prediction of hourly particulate matter with different deep-learning modeling techniques for Delhi, India. The secondary data of particulate matter concentrations and the meteorological parameters for the four static monitors in the area are collected from Central Pollution Control Board (CPCB) for dates between January 2019 and April 2021. The study area of South Delhi is divided into hexagonal grids. The data sets at the centroid of each grid are formulated with the spatial interpolation method of inverse distance weighting and Kriging. The hexagonal grids are required to collate the data coming from dynamic monitors. Three models with convolutional neural network (CNN), long short-term memory (LSTM), and CNN-LSTM are developed for a total of 15 cells. To evaluate developed models, mean absolute error and root mean square error are used. The results from prediction models show that CNN-LSTM models outperform the other two models. The predictions are accurate for the CNN-LSTM model compared with the values obtained from the static monitor. Also, compared with the existing and individual models, the proposed hybrid CNN-LSTM model performed better for most of the cells. The prediction models can also provide the pollutant concentration on various routes, which can assist residents in making travel choices based on the air pollution prediction information. Planners and practitioners can replicate the developed models in other regions.
+
+Recommended citation: V. Mittal, S. Sasetty, R. Choudhary, and A. Agarwal, “Deep-Learning Spatiotemporal Prediction Framework for
+Particulate Matter under Dynamic Monitoring,” Transportation Research Record: Journal of the Transportation
+Research Board, vol. 2676, no. 8. SAGE Publications, pp. 56–73, Mar. 17, 2022.
