@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.E. Computer Engineering in Vivekanand Education Society's Institute of Technology, May 2023 (expected)
+* University of Southern California, Master of Science in Computer Science (Artificial Intelligence)
+* University Of Mumbai, Bachelor of Engineering: Computer Engineering,CGPA:9.35/10
 
 Work experience
 ======
