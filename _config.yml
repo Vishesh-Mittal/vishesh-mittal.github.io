@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Vishesh Mittal"
   avatar           : "profile.jpeg"
-  bio              : "Student at Mumbai University"
-  location         : "Mumbai"
+  bio              : "Student at University of Southern California"
+  location         : "Los Angeles"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=eJPeeq4AAAAJ&hl=en"
-  email            : "2019vishesh.mittal@ves.ac.in"
+  email            : "visheshr@usc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "vishesh-mittal-606134169"
+  linkedin         : "vishesh-mittal"
   orcid            : 
   pinterest        :
   soundcloud       :
